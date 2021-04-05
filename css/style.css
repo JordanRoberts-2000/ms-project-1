@@ -1,0 +1,38 @@
+/* Preferences */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ----Main Header---- */
+.mainHeader{
+  position: relative;
+  font-family: 'New Tegomin', sans-serif;
+  text-align: center;
+  background: rgb(69, 69, 189) url(../assets/images/main_header_background.jpg) center / 100% 100%;
+  margin: 1vh 3% 0px 3%;
+  height: 19vh;
+  border: 2px black solid;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: .1px;
+}
+/* Header Title */
+.mainHeader h1{
+  font-size: 6vw;
+  position: absolute;
+  top: 0;
+  transform: translateY(-30%);
+  width: 100%;
+}
+/* Header Navbar */
+.mainHeader nav{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.mainHeader li{
+  font-size: 2vw;
+  width: 20%;
+  float: left;
+  list-style: none;
+}
