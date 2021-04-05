@@ -4,6 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    margin: 0 1% 0 1%;
+    background: cornflowerblue url(../assets/images/main_background.jpg);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+}
 /* ----Main Header---- */
 .mainHeader{
   position: relative;
