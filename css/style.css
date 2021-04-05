@@ -42,6 +42,16 @@ body{
   float: left;
   list-style: none;
 }
+.mainHeader a{
+    text-decoration: none;
+}
+.mainHeader a:visited {
+  color: white;
+}
+/* Header other */
+.active{
+    border-bottom: 1px white solid;
+}
 /* ----Main Footer---- */
 .mainFooter{
     color: white;
@@ -68,6 +78,9 @@ body{
 }
 .mainFooter a{
     color: white;
+}
+.mainFooter a:visited {
+  color: white
 }
 /* ----Preview Page---- */
 #preview{
