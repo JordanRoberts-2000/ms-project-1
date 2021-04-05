@@ -43,3 +43,58 @@ body{
   list-style: none;
 }
 /* ----Preview Page---- */
+#preview{
+    height: 72vh;
+}
+#preview ul{
+  background-color: rgb(10, 10, 10,0.5);
+  height: 50%;
+}
+#preview li{
+  border: 3px black solid;
+  width: 20%;
+  height: 100%;
+  float: left;
+  list-style: none;
+}
+#preview audio{
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 90% 90%;
+  background-position: center;
+}
+#previewRow2{
+    margin: 0 1% 3vh 1%;
+}
+/* songs 1-10 */
+#song1{
+    background: url(../assets/images/song0.jpg);
+}
+#song2{
+    background: url(../assets/images/song1.png);
+}
+#song3{
+    background: url(../assets/images/song2.jpg);
+}
+#song4{
+    background: url(../assets/images/song3.jpg);
+}
+#song5{
+    background: url(../assets/images/song4.jpg);
+}
+#song6{
+    background: url(../assets/images/song5.jpg);
+}
+#song7{
+    background: url(../assets/images/song6.jpg);
+}
+#song8{
+    background: url(../assets/images/song7.jpg);
+}
+#song9{
+    background: url(../assets/images/song8.jpg);
+}
+#song10{
+    background: url(../assets/images/song9.jpg);
+}
