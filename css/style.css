@@ -42,9 +42,36 @@ body{
   float: left;
   list-style: none;
 }
+/* ----Main Footer---- */
+.mainFooter{
+    color: white;
+    height: 10vh;
+    text-align: center;
+    position: relative;
+}
+.mainFooter h6{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: .7em;
+}
+.mainFooter ul{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.mainFooter li{
+    float: left;
+    width: 25%;
+    list-style: none;
+    font-size: 2em;
+}
+.mainFooter a{
+    color: white;
+}
 /* ----Preview Page---- */
 #preview{
-    height: 72vh;
+    height: 70vh;
 }
 #preview ul{
   background-color: rgb(10, 10, 10,0.5);
@@ -65,7 +92,7 @@ body{
   background-position: center;
 }
 #previewRow2{
-    margin: 0 1% 3vh 1%;
+    margin: 0 1% 0 1%;
 }
 /* songs 1-10 */
 #song1{
