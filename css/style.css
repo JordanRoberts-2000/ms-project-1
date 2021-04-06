@@ -238,7 +238,7 @@ body{
   position: absolute;
   top: 50%;
   color: black;
-  -webkit-text-fill-color: white;
+  -webkit-text-fill-color: blue;
   -webkit-text-stroke-width: .1px;
   transform: translateY(-50%);
   width: 100%;
@@ -248,4 +248,39 @@ body{
   float: left;
   width: 50%;
   height: 60vh;
+}
+/* Shop Overlay */
+#shop h1{
+  position: absolute;
+  bottom: 0%; 
+  font-size: 2em;
+  width: 100%;
+}
+#shop h3{
+  position: absolute;
+  top: 0%; 
+  font-size: 2em;
+  width: 100%;
+}
+.shopOverlay{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  border: 2px black dotted;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.25s;
+  text-align: center;
+}
+.shopOverlay > *{
+  transition: transform 0.25s;
+}
+.shopOverlay:hover{
+  opacity: 1;
+}
+.shopOverlay:hover >*{
+  transform: translateY(0)
 }
