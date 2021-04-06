@@ -228,12 +228,18 @@ body{
   height: 60vh;
   border: 2px black solid;
 }
+#shop img{
+  width: 100%;
+  height: 100%;  
+}
 #shop h2{
   font-family: 'New Tegomin', sans-serif;
   text-align: center;
-  color: white;
   position: absolute;
   top: 50%;
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: .1px;
   transform: translateY(-50%);
   width: 100%;
 }
