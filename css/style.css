@@ -334,7 +334,7 @@ body{
 }
 #youtubeVids iframe{
   width: 100%;
-  height: 100%;
+  height: 40vh;
 }
 #details{
   border: 2px black solid;
