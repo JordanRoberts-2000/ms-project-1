@@ -213,3 +213,33 @@ body{
 .aboutOverlay:hover >*{
   transform: translateY(0)
 }
+/* ----Shop Page---- */
+#shop{
+  font-family: 'New Tegomin', sans-serif;
+  margin: 2%;
+  background: rgba(10, 10, 10, 0.5);
+  height: 120vh;
+  position: relative;
+}
+#shop li{
+  list-style: none;
+  float: left;
+  width: 50%;
+  height: 60vh;
+  border: 2px black solid;
+}
+#shop h2{
+  font-family: 'New Tegomin', sans-serif;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.shopContain{
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 60vh;
+}
