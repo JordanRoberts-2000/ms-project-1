@@ -243,6 +243,7 @@ body{
   transform: translateY(-50%);
   width: 100%;
 }
+/* Shop Overlay */
 .shopContain{
   position: relative;
   float: left;
@@ -283,4 +284,30 @@ body{
 }
 .shopOverlay:hover >*{
   transform: translateY(0)
+}
+/* ----Booking Page---- */
+#booking{
+  height: 70vh;
+}
+#booking img{
+  float: left;
+  margin-left: 2%;
+  border: 2px black solid;
+  height: 100%;
+  width: 30vw;
+}
+#booking form{
+    color: white;
+  background: rgba(10, 10, 10, 0.5);
+  border: 2px black solid;
+  font-size: 1.2em;
+  float: right;
+  margin-right: 2%;
+  width: 60vw;
+  text-align: center;
+  height: 100%;
+}
+.bookinginput{
+  width: 70%;
+  height: 30px;
 }
