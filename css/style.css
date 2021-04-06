@@ -311,3 +311,34 @@ body{
   width: 70%;
   height: 30px;
 }
+/* ----Youtube Page---- */
+#youtubeDetails{
+  height: 30vh;
+  font-family: 'New Tegomin', sans-serif;
+  color: white;
+  text-align: center;
+}
+#youtubeDetails a:visited{
+  color: white
+}
+#youtubeVids{
+  background: rgb(10, 10, 10, 0.5);
+  height: 120vh;
+}
+#youtubeVids li{
+  list-style: none;
+  width: 25%;
+  height: 40vh;
+  border: 2px black solid;
+  float: left;
+}
+#youtubeVids iframe{
+  width: 100%;
+  height: 100%;
+}
+#details{
+  border: 2px black solid;
+  height: 15vh;
+  margin: 0 5% 0 5%;
+  background: rgb(10, 10, 10, 0.5);
+}
