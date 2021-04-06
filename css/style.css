@@ -174,7 +174,7 @@ body{
 }
 #moreAbout div{
   padding: 2%;
-  font-size: 1.7vw;
+  font-size: 1em;
   color: white;
   background: rgba(10, 10, 10,0.5);
   text-align: center;
@@ -347,7 +347,7 @@ body{
 }
 /* ----Responsive Design 900px---- */
 @media screen and (max-width: 900px){
-    /* preview page */
+    /* Preview Page */
   .mainHeader h1{
     -webkit-text-fill-color: black;
   }
@@ -360,6 +360,16 @@ body{
   }
   #song5, #song10{
     display: none;
+  }
+  /* About Page */
+  #about{
+    height: 130vh;
+  }
+  #about li{
+    width: 100%
+  }
+  #moreAbout div{
+    font-size: .7em
   }
 }
 /* ----Responsive Design 600px---- */
