@@ -45,7 +45,7 @@
             <li class="shopContain">
                 <img src="assets/images/shop2.jpg" alt="Picture of Men's Clothing">
                 <h2><i class="fas fa-shopping-basket"></i><br>Men's Clothing</h2>
-                <a href="#"><div class="shopOverlay">
+                <a href="#" data-toggle="modal" data-target="#noStock"><div class="shopOverlay">
                     <h3>Out of<br>Stock</h3>
                     <h1>(sorry)</h1>
                 </div></a>
@@ -53,7 +53,7 @@
             <li class="shopContain">
                 <img src="assets/images/shop1.jpg" alt="Picture of Women's Clothing">
                 <h2><i class="fas fa-shopping-basket"></i><br>Women's Clothing</h2>
-                <a href="#"><div class="shopOverlay">
+                <a href="#" data-toggle="modal" data-target="#noStock"><div class="shopOverlay">
                     <h3>Out of<br>Stock</h3>
                     <h1>(sorry)</h1>
                 </div></a>
@@ -61,7 +61,7 @@
             <li class="shopContain">
                 <img src="assets/images/shop3.jpg" alt="Picture of Accessories">
                 <h2><i class="fas fa-shopping-basket"></i><br>Accessories</h2>
-                <a href="#"><div class="shopOverlay">
+                <a href="#" data-toggle="modal" data-target="#noStock"><div class="shopOverlay">
                     <h3>Out of<br>Stock</h3>
                     <h1>(sorry)</h1>
                 </div></a>
@@ -69,7 +69,7 @@
             <li class="shopContain">
                 <img src="assets/images/shop4.jpg" alt="Picture of CD's">
                 <h2><i class="fas fa-shopping-basket"></i><br>Music</h2>
-                <a href="#"><div class="shopOverlay">
+                <a href="#" data-toggle="modal" data-target="#noStock"><div class="shopOverlay">
                     <h3>Out of<br>Stock</h3>
                     <h1>(sorry)</h1>
                 </div></a>
@@ -94,6 +94,23 @@
             </li>
         </ul>
       </footer>
+      <!----Model---->
+      <div class="modal" id="noStock" role="dialog" tabindex="-1" aria-labelledby="sentmodaltitle">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-center" id="sentmodaltitle">Out of stock</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            
+                        </button>
+                    </div>
+                    <input type="email" placeholder="email"><br>
+                    Sorry we are currently out of stock. By submitting your email we can reach out when we restock.<br>
+                    <button type="button" class="btn my-btn" data-dismiss="modal">Submit</button>
+                    <button type="button" class="btn my-btn" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
       <!----Bootstrap Scripts---->
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
