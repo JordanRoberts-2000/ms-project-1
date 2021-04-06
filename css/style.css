@@ -52,6 +52,9 @@ body{
 .active{
     border-bottom: 1px white solid;
 }
+.mainHeader a:hover{
+    font-size: 90%;
+}
 /* ----Main Footer---- */
 .mainFooter{
     color: white;
@@ -81,6 +84,9 @@ body{
 }
 .mainFooter a:visited {
   color: white
+}
+.mainFooter a:hover{
+    font-size: 90%;
 }
 /* ----Preview Page---- */
 #preview{
