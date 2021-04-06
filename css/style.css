@@ -178,7 +178,7 @@ body{
   transform: translateX(-50%);
 }
 /* About Overlay */
-.overlay{
+.aboutoverlay{
   position: absolute;
   top: 0%;
   left: 0%;
@@ -191,19 +191,19 @@ body{
   transition: opacity 0.25s;
   text-align: center;
 }
-.overlay > *{
+.aboutoverlay > *{
   transition: transform 0.25s;
 }
-.contain{
+.aboutcontain{
   position: relative;
   float: left;
   width: 31%;
   height: 40vh;
   margin: 1.1%;
 }
-.overlay:hover{
+.aboutoverlay:hover{
   opacity: 1;
 }
-.overlay:hover >*{
+.aboutoverlay:hover >*{
   transform: translateY(0)
 }
