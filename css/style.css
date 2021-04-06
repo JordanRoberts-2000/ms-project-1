@@ -303,7 +303,7 @@ body{
     color: white;
   background: rgba(10, 10, 10, 0.5);
   border: 2px black solid;
-  font-size: 1.2em;
+  font-size: 1.5vh;
   float: right;
   margin-right: 2%;
   width: 60vw;
@@ -311,8 +311,12 @@ body{
   height: 100%;
 }
 .bookinginput{
+    color: black;
   width: 70%;
-  height: 30px;
+  height: 4vh;
+}
+#booking button{
+    color: black;
 }
 /* ----Youtube Page---- */
 #youtubeDetails{
@@ -370,6 +374,21 @@ body{
   }
   #moreAbout div{
     font-size: .7em
+  }
+  /* Booking Page */
+  #booking{
+      height: 140vh;
+  }
+  #booking img{
+      display: none;
+  }
+  #booking form{
+      width: 100vw;
+      font-size: 1.2em;
+      margin: 0;
+  }
+  .bookinginput{
+      height: 30px;
   }
 }
 /* ----Responsive Design 600px---- */
