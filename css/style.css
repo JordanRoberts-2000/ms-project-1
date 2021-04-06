@@ -138,3 +138,42 @@ body{
 #song10{
     background: url(../assets/images/song9.jpg);
 }
+/* ----About Page---- */
+/* About Profiles */
+#about{
+  height: 35vh;
+  width: 100%;
+  border: 2px black solid;
+  background: rgba(10, 10, 10,0.5);
+}
+#about li{
+  margin: 1.1%;
+  border: 2px black solid;
+  float: left;
+  list-style: none;
+  width: 31%;
+  height: 40vh;
+}
+#about img{
+  height: 100%;
+  width: 100%;
+}
+/* About Aside 1 */
+#moreAbout{
+  height: 35vh;
+  position: relative;
+}
+#moreAbout div{
+  padding: 2%;
+  font-size: 1.7vw;
+  color: white;
+  background: rgba(10, 10, 10,0.5);
+  text-align: center;
+  border: 2px black solid;
+  position: absolute;
+  height: 70%;
+  width: 80%;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
