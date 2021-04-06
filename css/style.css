@@ -342,3 +342,34 @@ body{
   margin: 0 5% 0 5%;
   background: rgb(10, 10, 10, 0.5);
 }
+/* ----Responsive Design 900px---- */
+@media screen and (max-width: 900px){
+    /* preview page */
+  .mainHeader h1{
+    -webkit-text-fill-color: black;
+  }
+  #preview{
+    height: 280vh;
+  }
+  #preview li{
+    width: 50%;
+    height: 50%;
+  }
+  #song5, #song10{
+    display: none;
+  }
+}
+/* ----Responsive Design 600px---- */
+@media screen and (max-width: 600px){
+    /* preview page */
+  #preview{
+    height: 560vh;
+  }
+  #preview li{
+    width: 100%;
+    height: 25%;
+  }
+  #song5, #song10{
+    display: none;
+  }
+}
