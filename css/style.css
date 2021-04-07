@@ -409,4 +409,7 @@ body{
   #moreAbout div{
     font-size: .7em
   }
+  .aboutOverlay{
+      opacity: 1;
+  }
 }
