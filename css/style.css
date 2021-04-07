@@ -254,7 +254,7 @@ body{
   height: 60vh;
 }
 /* Shop Overlay */
-#shop h1{
+#shop h4{
   position: absolute;
   bottom: 0%; 
   font-size: 2em;
