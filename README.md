@@ -108,11 +108,13 @@ temporary borders were used to visually test where things were positioning and t
 * some images got distorted easily when streched therefore page height had to be adjusted or a higher resolution image was to replace it
 ## Validater
 ![proof of validation](assets/images/validater.png)
-I had my css code validated here:![https://jigsaw.w3.org/css-validator/]{https://jigsaw.w3.org/css-validator/}
-I had all my html code validated here:![https://validator.w3.org/]{https://validator.w3.org/}
+I had my css code validated here:![https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
+I had all my html code validated here:![https://validator.w3.org/](https://validator.w3.org/)
 I corrected all errors/mistakes. Now all code is valid
 ---
 # Deployment
+I wrote the code in gitpod and committed frequently and pushed it to github(cloud)
+I then used gitpages to deploy the page.
 ---
 # Credit
 ##I mages
