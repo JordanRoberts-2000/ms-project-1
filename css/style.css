@@ -303,7 +303,7 @@ body{
     color: white;
   background: rgba(10, 10, 10, 0.5);
   border: 2px black solid;
-  font-size: 1.5vh;
+  font-size: 1em;
   float: right;
   margin-right: 2%;
   width: 60vw;
@@ -313,7 +313,7 @@ body{
 .bookinginput{
     color: black;
   width: 70%;
-  height: 4vh;
+  height: 1.5em;
 }
 #booking button{
     color: black;
@@ -411,5 +411,22 @@ body{
   }
   .aboutOverlay{
       opacity: 1;
+  }
+}
+/* ----Responsive Design Height--- */
+@media screen and (max-height: 550px){
+#booking{
+      height: 140vh;
+  }
+  #booking img{
+      display: none;
+  }
+  #booking form{
+      width: 100vw;
+      font-size: 1.2em;
+      margin: 0;
+  }
+  .bookinginput{
+      height: 30px;
   }
 }
