@@ -9,9 +9,12 @@ This is a website designed for a rock band called Fistful of carbon. It will be 
 I need to create a positive user experience. I will achieve this by not overloading the user with infomation, using relevant colours and creating a simple yet exciting layout. I will not include annoying pop-ups or any autoplay.
 ## Strategy plane
 ### user stories
-I'm looking for a rock band to play at my wedding. I will know from music samples if itll suit my taste, then I will need to book them."Jane Murray"
-I'm already a fan and just want to get to know more about them and also maybe buy some merch."Guy Fawks"
+I'm looking for a rock band to play at my wedding. I will know from music samples if itll suit my taste, then I will need to book them.
+"Jane Murray"
+I'm already a fan and just want to get to know more about them and also maybe buy some merch.
+"Guy Fawks"
 I'm new to rock music and am just looking around at various bands.
+"Logan Paul"
 ### conclusion
 The site I will build must:
 * cater to both fans and newcomers
@@ -26,6 +29,7 @@ Site will contain 5 pages
 3. booking
 4. youtube
 5. shop
+
 Users can access them using a navigation bar. Javascript cannot be used as I am not knowledgable so the pages will be static, however bootstrap can be used to display models. As I am new I will approach this project with minimalist design. This will help making a responsive page possible.
 ## Structure plane
 * Each page will share a background, footer, header and navbar for simplicity/consisty/ease of access
@@ -104,8 +108,8 @@ temporary borders were used to visually test where things were positioning and t
 * some images got distorted easily when streched therefore page height had to be adjusted or a higher resolution image was to replace it
 ## Validater
 ![proof of validation](assets/images/validater.png)
-I had my css code validated here:[https://jigsaw.w3.org/css-validator/]{https://jigsaw.w3.org/css-validator/}
-I had all my html code validated here:[https://validator.w3.org/]{https://validator.w3.org/}
+I had my css code validated here:![https://jigsaw.w3.org/css-validator/]{https://jigsaw.w3.org/css-validator/}
+I had all my html code validated here:![https://validator.w3.org/]{https://validator.w3.org/}
 I corrected all errors/mistakes. Now all code is valid
 ---
 # Deployment
@@ -119,4 +123,4 @@ All downloaded from here:[https://www.bensound.com](https://www.bensound.com)
 CodeInstitude website
 learnt to fade background: [https://www.youtube.com/watch?v=BNrTQzKWyDo](https://www.youtube.com/watch?v=BNrTQzKWyDo)
 ## inspiration
-Eminems merch store was very visually appealing and efficient so I adopted a similar design[https://shop.eminem.com/](https://shop.eminem.com/)
+Eminems merch store was very visually appealing and efficient so I adopted a similar design:[https://shop.eminem.com/](https://shop.eminem.com/)
