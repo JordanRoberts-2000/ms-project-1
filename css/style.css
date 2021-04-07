@@ -344,8 +344,9 @@ body{
   height: 40vh;
 }
 #details{
+   font-size: .8em; 
   border: 2px black solid;
-  height: 15vh;
+  height: 20vh;
   margin: 0 5% 0 5%;
   background: rgb(10, 10, 10, 0.5);
 }
@@ -380,6 +381,19 @@ body{
   .bookinginput{
       height: 30px;
   }
+  /* youtube */
+  #youtubeVids{
+    height: 160vh;
+  }
+  #youtubeVids li{
+    width: 33.33%;
+  }
+  #youtubeDetails h2{
+    font-size: 1.25em;
+  }
+  #details{
+      height: 30vh;
+  }
 }
 /* ----Responsive Design 600px---- */
 @media screen and (max-width: 600px){
@@ -396,7 +410,7 @@ body{
   }
   /* navbar */
   .mainHeader nav{
-    font-size: .7em;
+    font-size: 1em;
   }
   /* About Page */
   #about{
@@ -412,9 +426,23 @@ body{
   .aboutOverlay{
       opacity: 1;
   }
+  /* youtube page */
+  #youtubeVids{
+    height: 240vh;
+  }
+  #youtubeVids li{
+    width: 50%;
+  }
+  #youtubeDetails h2{
+    font-size: 1em;
+  }
+  #youtubeDetails a{
+      font-size: .7em;
+  }
 }
 /* ----Responsive Design Height--- */
 @media screen and (max-height: 550px){
+/* booking */
 #booking{
       height: 140vh;
   }
