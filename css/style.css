@@ -37,7 +37,7 @@ body{
   bottom: 0;
 }
 .mainHeader li{
-  font-size: 2vw;
+  font-size: 1.5em;
   width: 20%;
   float: left;
   list-style: none;
@@ -403,5 +403,9 @@ body{
   }
   #song5, #song10{
     display: none;
+  }
+  /* navbar */
+  .mainHeader nav{
+    font-size: .7em;
   }
 }
